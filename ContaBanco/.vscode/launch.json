@@ -3,6 +3,13 @@
     "configurations": [
       {
         "type": "java",
+        "name": "ContaTerminal",
+        "request": "launch",
+        "mainClass": "ContaTerminal",
+        "projectName": "ContaBanco_ba04c20e"
+      },
+      {
+        "type": "java",
         "name": "Executar ContaTerminal",
         "request": "launch",
         "mainClass": "ContaTerminal",
