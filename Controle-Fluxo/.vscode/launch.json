@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CaixaEletronico",
+            "request": "launch",
+            "mainClass": "CaixaEletronico",
+            "projectName": "Controle-Fluxo_4be152a3"
+        },
+        {
+            "type": "java",
+            "name": "Controle-Fluxo",
+            "request": "launch",
+            "mainClass": "",
+            "projectName": "Controle-Fluxo"
+        }
+    ]
+  }
+  
