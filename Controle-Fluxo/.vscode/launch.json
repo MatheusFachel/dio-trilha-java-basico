@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ExemploFor",
+            "request": "launch",
+            "mainClass": "ExemploFor",
+            "projectName": "Controle-Fluxo_4be152a3"
+        },
+        {
+            "type": "java",
             "name": "SistemaDeMedida",
             "request": "launch",
             "mainClass": "SistemaDeMedida",
