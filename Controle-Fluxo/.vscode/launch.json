@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SistemaDeMedida",
+            "request": "launch",
+            "mainClass": "SistemaDeMedida",
+            "projectName": "Controle-Fluxo_4be152a3"
+        },
+        {
+            "type": "java",
             "name": "ResultadoEscolar",
             "request": "launch",
             "mainClass": "ResultadoEscolar",
