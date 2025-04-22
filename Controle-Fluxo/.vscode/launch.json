@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ExemploBreakContinue",
+            "request": "launch",
+            "mainClass": "ExemploBreakContinue",
+            "projectName": "Controle-Fluxo_4be152a3"
+        },
+        {
+            "type": "java",
             "name": "ExemploForArrey",
             "request": "launch",
             "mainClass": "ExemploForArrey",
