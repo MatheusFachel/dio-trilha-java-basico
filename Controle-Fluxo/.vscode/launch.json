@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AboutMe",
+            "request": "launch",
+            "mainClass": "AboutMe",
+            "projectName": "Controle-Fluxo_4be152a3"
+        },
+        {
+            "type": "java",
             "name": "ExemploWhile",
             "request": "launch",
             "mainClass": "ExemploWhile",
