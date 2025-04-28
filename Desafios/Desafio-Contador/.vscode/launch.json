@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "java",
+        "name": "ContaTerminal",
+        "request": "launch",
+        "mainClass": "ContaTerminal",
+        "projectName": "ContaBanco_ba04c20e"
+      },
+      {
+        "type": "java",
+        "name": "Executar ContaTerminal",
+        "request": "launch",
+        "mainClass": "ContaTerminal",
+        "projectName": "ContaBanco",
+        "cwd": "${workspaceFolder}",
+        "classPaths": [
+          "${workspaceFolder}/bin"
+        ]
+      }
+    ]
+  }
+  
