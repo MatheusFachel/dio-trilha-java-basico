@@ -5,10 +5,36 @@ public class ProcessoSeletivos {
 
     public static void main(String[] args) {
 
-        analisarCandidato(1900.0);
-        analisarCandidato(2200.0);
-        analisarCandidato(2000.0);
-        selecaoCandidatos();
+        //analisarCandidato(1900.0);
+        //analisarCandidato(2200.0);
+        //analisarCandidato(2000.0);
+        //selecaoCandidatos();
+
+        imprimirSelecionados();
+
+    }
+
+
+        
+    static void imprimirSelecionados() {
+
+        String [] candidatos = {"FELIPE", "MARCIA", "RENATA", "LUCAS", "MATHEUS"};
+
+        System.out.println("Imprimindo a lista de candidatos informando o indice");
+
+        for (int indice = 0; indice < candidatos.length; indice++ ) {
+
+            System.out.println("O candidato de n° " + (indice+1) + " é " + candidatos[indice]);
+
+        }
+
+        System.out.println("Forma abrevida de interação for each");
+
+        for (String cadidato: candidatos) {
+
+            System.out.println("O candidato selecionado foi " + cadidato);
+
+        }
     }
 
     static void selecaoCandidatos () {
