@@ -3,6 +3,13 @@
     "configurations": [
       {
         "type": "java",
+        "name": "Contador",
+        "request": "launch",
+        "mainClass": "DesafioControleFluxo.Contador",
+        "projectName": "Desafio-Contador_3c298068"
+      },
+      {
+        "type": "java",
         "name": "ContaTerminal",
         "request": "launch",
         "mainClass": "ContaTerminal",
