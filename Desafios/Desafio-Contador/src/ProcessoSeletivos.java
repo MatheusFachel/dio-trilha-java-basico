@@ -11,6 +11,15 @@ public class ProcessoSeletivos {
         selecaoCandidatos();
     }
 
+
+    static void imprimirSelecionados(){
+
+        String [] candidatos = {"FELIPE", "MARCIA", "RENATA", "LUCAS", "MATHEUS"};
+
+        for
+
+    }
+
     static void selecaoCandidatos () {
 
         String [] candidatos = {"FELIPE", "MARCIA", "RENATA", "LUCAS", "MATHEUS", "NICOLE" };
