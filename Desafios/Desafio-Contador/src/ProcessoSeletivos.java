@@ -16,7 +16,7 @@ public class ProcessoSeletivos {
 
         String [] candidatos = {"FELIPE", "MARCIA", "RENATA", "LUCAS", "MATHEUS"};
 
-        for
+    
 
     }
 
