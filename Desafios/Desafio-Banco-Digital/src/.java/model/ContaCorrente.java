@@ -1,14 +1,13 @@
+package model;
 
 public class ContaCorrente extends Conta {
-
-	public ContaCorrente(Cliente cliente) {
-		super(cliente);
+	public ContaCorrente(Cliente cliente, int agencia, int numero) {
+		super(cliente, agencia, numero);
 	}
 
 	@Override
 	public void imprimirExtrato() {
 		System.out.println("=== Extrato Conta Corrente ===");
-		super.imprimirInfosComuns();
+		imprimirInfosComuns();
 	}
-	
 }
