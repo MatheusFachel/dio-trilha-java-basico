@@ -1,1 +1,1 @@
-![Diagrama UML do iPhone](./dio-trilha-java-basico\Desafios\Desafio-Iphone\UML.png)
+![Diagrama UML do iPhone](./UML.png)
