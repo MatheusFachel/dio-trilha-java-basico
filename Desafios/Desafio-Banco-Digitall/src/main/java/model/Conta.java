@@ -1,17 +1,22 @@
 package model;
 
 import exception.SaldoInsuficienteException;
+import lombok.Getter;
+import lombok.Setter;
 
+@Getter
+@Setter
 public abstract class Conta implements IConta {
 	protected Cliente cliente;
 	protected int agencia;
 	public int numero;
 	protected double saldo = 0;
 
+	// Construtor manual preservado
 	public Conta(Cliente cliente, int agencia, int numero) {
 		this.cliente = cliente;
 		this.agencia = agencia;
-		this.numero  = numero;
+		this.numero = numero;
 	}
 
 	@Override
@@ -44,7 +49,5 @@ public abstract class Conta implements IConta {
 
 	@Override
 	public abstract void imprimirExtrato();
-
-
-
 }
+
