@@ -2,16 +2,16 @@ package model;
 
 public class Cliente {
 	private String nome;
-	private String cpf;
-	private String agencia;
+	private int cpf;
+	private int agencia;
 
-	public Cliente(String nome, String agencia,String cpf) {
+	public Cliente(String nome, int agencia,int cpf) {
 		this.nome = nome;
 		this.cpf  = cpf;
 		this.agencia = agencia;
 	}
 
 	public String getNome() { return nome; }
-	public String getCpf()  { return cpf;  }
-	public String getAgencia()  { return agencia;  }
+	public int getCpf()  { return cpf;  }
+	public int getAgencia()  { return agencia;  }
 }

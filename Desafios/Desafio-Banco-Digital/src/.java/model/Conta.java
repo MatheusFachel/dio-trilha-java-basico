@@ -8,7 +8,7 @@ public abstract class Conta implements IConta {
 	public int numero;
 	protected double saldo = 0;
 
-	public Conta(Cliente cliente) {
+	public Conta(Cliente cliente, int agencia, int numero) {
 		this.cliente = cliente;
 		this.agencia = agencia;
 		this.numero  = numero;
@@ -37,11 +37,14 @@ public abstract class Conta implements IConta {
 	protected void imprimirInfosComuns() {
 		System.out.println(String.format("Titular: %s", cliente.getNome()));
 		System.out.println(String.format("CPF: %s", cliente.getCpf()));
-		System.out.println(String.format("Agencia: %d", agencia));
+		System.out.println(String.format("Agencia: %d", cliente.getAgencia()));
 		System.out.println(String.format("Numero: %d", numero));
 		System.out.println(String.format("Saldo: %.2f", saldo));
 	}
 
 	@Override
 	public abstract void imprimirExtrato();
+
+
+
 }

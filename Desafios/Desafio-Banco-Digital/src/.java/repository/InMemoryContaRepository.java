@@ -8,7 +8,7 @@ public class InMemoryContaRepository implements ContaRepository {
 
     @Override
     public void save(Conta conta) {
-        storage.put(conta.numero, conta); // agora usa o próprio número
+        storage.put(conta.numero, conta);
     }
 
     @Override
